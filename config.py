@@ -3,7 +3,7 @@ class Config(object):
     Common configurations across all environments
     """
 
-class DevelopmentConfig(config):
+class DevelopmentConfig(Config):
     """ 
     Configurations for development
     """
